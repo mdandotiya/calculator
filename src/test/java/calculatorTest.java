@@ -9,7 +9,7 @@ public class calculatorTest {
     private calculator objcalculator;
 
     @Before
-    void setObjcalculator(){
+    public void setObjcalculator(){
         objcalculator  = new calculator();
     }
 
