@@ -32,7 +32,7 @@ public class calculatorTest {
     @Test
     public void logBaseE() {
         double a = 10;
-        double expectedresult = 2.30;
+        double expectedresult = 2.302585092994046;
         double result = objcalculator.logBaseE(a);
         Assert.assertEquals(expectedresult,result,0.001);
     }
