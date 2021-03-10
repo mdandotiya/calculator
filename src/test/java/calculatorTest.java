@@ -18,7 +18,7 @@ public class calculatorTest {
         double a = 64;
         double expectedresult = 8;
         double result = objcalculator.squareRoot(a);
-        Assert.assertEquals(expectedresult,result);
+        Assert.assertEquals(expectedresult,result,0.001);
     }
 
     @Test
@@ -34,7 +34,7 @@ public class calculatorTest {
         double a = 10;
         double expectedresult = 2.30;
         double result = objcalculator.logBaseE(a);
-        Assert.assertEquals(expectedresult,result);
+        Assert.assertEquals(expectedresult,result,0.001);
     }
 
     @Test
@@ -42,6 +42,6 @@ public class calculatorTest {
         double a= 2,b=5;
         double expectedresult = 32;
         double result = objcalculator.power(a,b);
-        Assert.assertEquals(expectedresult,result);
+        Assert.assertEquals(expectedresult,result,0.001);
     }
 }
