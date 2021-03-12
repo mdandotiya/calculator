@@ -2,15 +2,13 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+public class mainTest {
 
-public class calculatorTest {
-
-    private calculator objcalculator;
+    private Main objcalculator;
 
     @Before
     public void setObjcalculator(){
-        objcalculator  = new calculator();
+        objcalculator  = new Main();
     }
 
     @Test

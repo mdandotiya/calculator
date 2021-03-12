@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator {
+public class Main {
     public double squareRoot(double x){
         return Math.sqrt(x);
     }
@@ -20,7 +20,7 @@ public class calculator {
     }
 
     public static void main(String[] args) {
-        calculator calc = new calculator();
+        Main calc = new Main();
         int n;
         do {
             System.out.println("Welcome to IIITB's Scientific Calculator\n"
