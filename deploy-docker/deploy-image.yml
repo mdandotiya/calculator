@@ -4,5 +4,5 @@
   tasks:
     - name: Pull junit devops image
       docker_image:
-        name: mdandotiya/junit-devops
+        name: mdandotiya13103558/junit-devops
         source: pull
