@@ -28,17 +28,17 @@ public class mainTest {
 
     @Test
     public void factorialFalsePositive() {
-        Assert.assertEquals("Factorial of a number for false positive result",100,objcalculator.factorial(5));
+        Assert.assertNotEquals("Factorial of a number for false positive result",100,objcalculator.factorial(5));
     }
 
     @Test
     public void logBaseETruePositive() {
-        Assert.assertEquals("logBaseE of a number for true positive result",2.30,objcalculator.logBaseE(10),0.001);
+        Assert.assertEquals("logBaseE of a number for true positive result",2.30,objcalculator.logBaseE(10),0.1);
     }
 
     @Test
     public void logBaseEFalsePositive() {
-        Assert.assertEquals("logBaseE of a number for false positive result",3.20,objcalculator.logBaseE(10),0.001);
+        Assert.assertNotEquals("logBaseE of a number for false positive result",3.20,objcalculator.logBaseE(10),0.1);
     }
 
     @Test
@@ -48,6 +48,6 @@ public class mainTest {
 
     @Test
     public void powerFalsePositive() {
-        Assert.assertEquals("power of a to b for false postive result",20,objcalculator.power(2,5),0.001);
+        Assert.assertNotEquals("power of a to b for false postive result",20,objcalculator.power(2,5),0.001);
     }
 }
