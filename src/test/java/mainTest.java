@@ -12,34 +12,42 @@ public class mainTest {
     }
 
     @Test
-    public void squareRoot() {
-        double a = 64;
-        double expectedresult = 8;
-        double result = objcalculator.squareRoot(a);
-        Assert.assertEquals(expectedresult,result,0.001);
+    public void squareRootTruePositive() {
+        Assert.assertEquals("Square root of an number for true positive result",8,objcalculator.squareRoot(64),0.001);
     }
 
     @Test
-    public void factorial() {
-        int a = 5;
-        int expectedresult = 120;
-        int result = objcalculator.factorial(a);
-        Assert.assertEquals(expectedresult,result);
+    public void squareRootFalsePositive() {
+        Assert.assertNotEquals("Square root of an number for false positive result",6,objcalculator.squareRoot(64),0.001);
     }
 
     @Test
-    public void logBaseE() {
-        double a = 10;
-        double expectedresult = 2.302585092994046;
-        double result = objcalculator.logBaseE(a);
-        Assert.assertEquals(expectedresult,result,0.001);
+    public void factorialTruePositive() {
+        Assert.assertEquals("Factorial of a number for true positive result",120,objcalculator.factorial(5));
     }
 
     @Test
-    public void power() {
-        double a= 2,b=5;
-        double expectedresult = 32;
-        double result = objcalculator.power(a,b);
-        Assert.assertEquals(expectedresult,result,0.001);
+    public void factorialFalsePositive() {
+        Assert.assertEquals("Factorial of a number for false positive result",100,objcalculator.factorial(5));
+    }
+
+    @Test
+    public void logBaseETruePositive() {
+        Assert.assertEquals("logBaseE of a number for true positive result",2.30,objcalculator.logBaseE(10),0.001);
+    }
+
+    @Test
+    public void logBaseEFalsePositive() {
+        Assert.assertEquals("logBaseE of a number for false positive result",3.20,objcalculator.logBaseE(10),0.001);
+    }
+
+    @Test
+    public void powerTruePositive() {
+        Assert.assertEquals("power of a to b for true postive result",32,objcalculator.power(2,5),0.001);
+    }
+
+    @Test
+    public void powerFalsePositive() {
+        Assert.assertEquals("power of a to b for false postive result",20,objcalculator.power(2,5),0.001);
     }
 }
