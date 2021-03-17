@@ -1,0 +1,20 @@
+13/Mar/2021:12:31:52 373 [Main.java] [INFO] Main [Square Root] - 64.0
+13/Mar/2021:12:31:52 377 [Main.java] [INFO] Main [Square root result] - 8.0
+13/Mar/2021:12:32:06 364 [Main.java] [INFO] Main [Log Base e] - 10.0
+13/Mar/2021:12:32:06 364 [Main.java] [INFO] Main [Log Base e result] - 2.302585092994046
+13/Mar/2021:12:32:11 369 [Main.java] [INFO] Main [Power] - 2.0 5.0
+13/Mar/2021:12:32:11 369 [Main.java] [INFO] Main [Power result] - 32.0
+17/Mar/2021:07:44:00 713 [Main.java] [INFO] Main [Square Root] - 4.0
+17/Mar/2021:07:44:00 719 [Main.java] [INFO] Main [Square root result] - 2.0
+17/Mar/2021:07:44:09 977 [Main.java] [INFO] Main [Square Root] - 8.0
+17/Mar/2021:07:44:09 977 [Main.java] [INFO] Main [Square root result] - 2.8284271247461903
+17/Mar/2021:07:44:47 933 [Main.java] [INFO] Main [Log Base e] - 10.0
+17/Mar/2021:07:44:47 933 [Main.java] [INFO] Main [Log Base e result] - 2.302585092994046
+17/Mar/2021:07:44:54 997 [Main.java] [INFO] Main [Power] - 2.0 3.0
+17/Mar/2021:07:44:54 997 [Main.java] [INFO] Main [Power result] - 8.0
+17/Mar/2021:07:45:05 974 [Main.java] [INFO] Main [Power] - 3.0 2.0
+17/Mar/2021:07:45:05 974 [Main.java] [INFO] Main [Power result] - 9.0
+17/Mar/2021:07:45:12 983 [Main.java] [INFO] Main [Power] - 5.0 3.0
+17/Mar/2021:07:45:12 983 [Main.java] [INFO] Main [Power result] - 125.0
+17/Mar/2021:07:45:18 753 [Main.java] [INFO] Main [Power] - 6.0 3.0
+17/Mar/2021:07:45:18 754 [Main.java] [INFO] Main [Power result] - 216.0
